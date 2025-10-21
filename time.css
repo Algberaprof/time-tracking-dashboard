@@ -1,0 +1,315 @@
+* {
+    font-family: [Rubik];
+    
+}
+body {
+    background: hsl(226, 43%, 10%);
+    width: 100%;
+}
+.app {
+    width: 95%;
+    margin: 50px auto;
+}
+
+.pimg {
+    width: 75px;
+    height: 75px;
+    border: 3px solid white;
+    border-radius: 50%
+
+}
+.pf1 {
+    border: 1px solid hsl(235, 46%, 20%);
+    background:  hsl(235, 46%, 20%);
+    border-radius: 20px;
+    width: 95%;
+}
+.pfname {
+    font-size: 25px;
+    margin-top: -10px;
+    color: white;
+}
+.pfcd1 {
+    border: 1px solid hsl(246, 80%, 60%);
+    background: hsl(246, 80%, 60%);
+    border-radius: 20px;
+    display: flex;
+    padding: 30px;
+    gap: 25px;
+}
+.pfd1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.pfc1 {
+    color: hsl(236, 100%, 87%);
+    font-size: 18px;
+}
+.allsmt {
+    color: hsl(236, 100%, 87%);
+    font-size: 18px;
+    margin-top: 60px;
+}
+.allcnt {
+    margin-top: 25px;
+}
+.card1 {
+    background: hsl(15, 100%, 70%);
+    color: white;
+    border-radius: 20px;
+    padding-top: 75px;
+    width: 95%;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 25px
+}
+.cd1 {
+    border: 1px solid hsl(235, 46%, 20%);
+    border-radius: 18px;
+    background: hsl(235, 46%, 20%);
+    margin-top: -20px;
+    padding: 25px;
+    z-index: 99;
+    position: relative;
+}
+.cd11 {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+}
+.imgw {
+    position: absolute;
+    right: 10px;
+    top: -20px;
+    transform: translateY(10%);
+}
+.imge {
+    position: absolute;
+    right: 35px;
+    cursor: pointer;
+}
+.card2 {
+    background: hsl(195, 74%, 62%);
+    color: white;
+    border-radius: 20px;
+    padding-top: 75px;
+    width: 95%;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 25px
+}
+.cd2 {
+    border: 1px solid hsl(235, 46%, 20%);
+    border-radius: 18px;
+    background: hsl(235, 46%, 20%);
+    margin-top: -20px;
+    padding: 25px;
+    z-index: 99;
+    position: relative;
+}
+.cd22 {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+} 
+.card3 {
+    background: hsl(348, 100%, 68%);
+    color: white;
+    border-radius: 20px;
+    padding-top: 75px;
+    width: 95%;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 25px
+}
+.cd3 {
+    border: 1px solid hsl(235, 46%, 20%);
+    border-radius: 18px;
+    background: hsl(235, 46%, 20%);
+    margin-top: -20px;
+    padding: 25px;
+    z-index: 99;
+    position: relative;
+}
+.cd33 {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+} 
+.card4 {
+    background: hsl(145, 58%, 55%);
+    color: white;
+    border-radius: 20px;
+    padding-top: 75px;
+    width: 95%;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 25px
+}
+.cd4 {
+    border: 1px solid hsl(235, 46%, 20%);
+    border-radius: 18px;
+    background: hsl(235, 46%, 20%);
+    margin-top: -20px;
+    padding: 25px;
+    z-index: 99;
+    position: relative;
+}
+.cd44 {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+}
+.imgex {
+    position: absolute;
+    height: 70px;
+    right: 10px;
+    top: -5px;
+    transform: translateY(5%);
+}
+.card5 {
+    background: hsl(264, 64%, 52%);
+    color: white;
+    border-radius: 20px;
+    padding-top: 75px;
+    width: 95%;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 25px
+}
+.cd5 {
+    border: 1px solid hsl(235, 46%, 20%);
+    border-radius: 18px;
+    background: hsl(235, 46%, 20%);
+    margin-top: -20px;
+    padding: 25px;
+    z-index: 99;
+    position: relative;
+}
+.cd55 {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+}
+.card6 {
+    background: hsl(43, 84%, 65%);
+    color: white;
+    border-radius: 20px;
+    padding-top: 75px;
+    width: 95%;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 25px
+}
+.cd6 {
+    border: 1px solid hsl(235, 46%, 20%);
+    border-radius: 18px;
+    background: hsl(235, 46%, 20%);
+    margin-top: -20px;
+    padding: 25px;
+    z-index: 99;
+    position: relative;
+}
+.cd66 {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+
+}
+.card1:hover, .card2:hover, .card3:hover, .card4:hover, .card5:hover, .card6:hover {
+   width: 90%;
+   background-color: hsl(235, 45%, 61%);
+   margin-top: -5px;
+   transition: width 2s, background-color 2s;
+   transition-delay: 0.5s;
+}
+@media screen and (min-width:700px) {
+    .app {
+        width: 70%;
+    }
+}
+@media screen and (min-width:900px) {
+    .app {
+        display: grid;
+        grid-template-columns: 250px 1fr;
+        gap: 25px;
+        width: 90%;
+        margin: 50px auto;
+    }
+    .pf1 {
+        height: 100%;
+    }
+     .pfcd1 {
+    display: block;
+    }
+     .pfcd2 {
+    padding: 35px 0 35px 0;
+    }
+     .pfd1 {
+    display: block;
+    margin-left: 30px;
+    padding-top: 100px;
+    }
+    .allsmt {
+        font-size: 11px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    .allcnt {
+        gap: 25px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+     .card1, .card2, .card3, .card4, .card5, .card6 {
+        width: 40%;
+        margin: auto;
+    }
+}
+@media (min-width: 1024px) {
+ .app {
+ display: grid;
+ grid-template-columns: 250px 1fr; 
+ gap: 25px;
+ width: 90%;
+ margin: 60px auto;
+ }
+ .pf1 {
+ height: 95%;
+ margin: auto;
+ padding-bottom: 10px;
+ }
+ .pfcd1 {
+    display: block;
+ }
+ .pfcd2 {
+    padding: 30px 0 35px 0;
+ }
+ .pfd1 {
+    display: block;
+    margin-left: 30px;
+    padding-top: 30px;
+ }
+ .allsmt {
+        font-size: 11px;
+    }
+    h2 {
+        font-size: 18px;
+ }
+ .allcnt {
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ gap: 25px;
+ }
+ .card1, .card2, .card3, .card4, .card5, .card6 {
+ width: 100%;
+ margin: auto;
+}
+ }
+  
