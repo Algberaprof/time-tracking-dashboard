@@ -225,6 +225,7 @@ body {
 .card1:hover, .card2:hover, .card3:hover, .card4:hover, .card5:hover, .card6:hover {
    width: 90%;
    background-color: hsl(235, 45%, 61%);
+   margin: auto;
    margin-top: -5px;
    transition: width 2s, background-color 2s;
    transition-delay: 0.5s;
@@ -312,4 +313,5 @@ body {
  margin: auto;
 }
  }
+
   
